@@ -1,0 +1,55 @@
+body {
+    background-image: url("https://media.tronmc.com/img/triangle.gif");
+    background-color: white;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+h1 {
+    height: 200px; line-height: 200px;
+    position: absolute;
+    top: 50%; margin-top:-100px;
+    left: 50%; margin-left:-400px;
+    font-weight: 900;
+    font-size: 100px;
+    text-transform: uppercase;
+    color: black; text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+p {
+    width:800px;
+    height: 200px;
+    position: absolute;
+    top: 55%;
+    left: 50%; margin-left:-400px;
+    font-weight: 500;
+    font-size: 30px;
+    color: black; text-align: center;
+}
+.vid {
+    margin: 50px auto;
+    display: block;
+    width: 560;
+    height: 315;
+}
+@media(max-width: 400px) {
+    .vid {
+      margin: 627px auto;
+    }
+    p {
+      font-size: 52px;
+    }
+}
+a:link, a:visited {
+    color: black;
+    font-weight: 500;
+    transition: color 1s ease-out 100ms
+}
+a:hover {
+    color: #00e7ff;
+    animation: color-change 1.5s infinite;
+}
+@keyframes color-change {
+    0% { color: #005dc7; }
+    50% { color: #00aeff; }
+    100% { color: #0063d4; }
+}
